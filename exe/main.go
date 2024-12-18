@@ -10,7 +10,7 @@ import (
 func main() {
 	// Check if an argument is provided
 
-	company, err := extrago ctCompanyName()
+	company, err := extractCompanyName()
 	if err != nil {
 		fmt.Println(err)
 	}
